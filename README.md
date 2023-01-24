@@ -1,4 +1,4 @@
-# Project Documentation - Full CI/CD pipelines for microservice based applications.  Distributed version of the Spring PetClinic Application(java) built with Spring Cloud. 
+# Project Documentation - Full CI/CD pipelines for microservice based dynamic applications.  Distributed version of the Spring PetClinic Application(java) built with Spring Cloud. 
 
 CI/CD pipelines for microservices, based java dynamic web applications with database. Having profile: Testing/Staging/Production. Using Devops Tools (Kubernetes, Docker, DockerCompose, Jenkins, Maven, Nexus, Ansible, Selenium, Rancher, Prometheus, Grafana, Git, Github, Terraform) and AWS Tools (ECS, ECR, R53, EC2, VPC's Components) and Deploying the Spring Web App on it. This project aims to create full CI/CD Pipelines for microservice based applications. Jenkins Server deployed on Elastic Compute Cloud (EC2) Instance is used as CI/CD Server to build pipelines.
 
