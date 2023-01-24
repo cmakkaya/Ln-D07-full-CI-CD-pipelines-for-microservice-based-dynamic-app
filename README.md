@@ -1,6 +1,6 @@
 # Project Documentation - Distributed version of the Spring PetClinic Sample Application built with Spring Cloud 
 
-# Creating Microservices CI-CD Pipeline, Using Devops Tools (Kubernetes, Docker, Docker_Compose, Jenkins, Maven, Nexus, Ansible, Selenium, Rancher, Prometheus, Grafana, Git, Github, Terraform) and AWS Toolls (ECS, ECR, R53, EC2, VPC's Compenents) and Deploying the Spring Web App on it.
+# Java Microservices CI/CD Project for Dynamic web page with database, having profile: Developer/Staging/Production.   Using Devops Tools (Kubernetes, Docker, DockerCompose, Jenkins, Maven, Nexus, Ansible, Selenium, Rancher, Prometheus, Grafana, Git, Github, Terraform) and AWS Tools (ECS, ECR, R53, EC2, VPC's Components) and Deploying the Spring Web App on it.
 
 [![Build Status](https://travis-ci.org/spring-petclinic/spring-petclinic-microservices.svg?branch=master)](https://travis-ci.org/spring-petclinic/spring-petclinic-microservices/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
