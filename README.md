@@ -1,7 +1,16 @@
-# Project Documentation - Full CI/CD pipelines for microservice based dynamic applications.  Distributed version of the Spring PetClinic Application(java) built with Spring Cloud. 
+# Full CI/CD pipelines for microservices, based java dynamic web applications with database.  
 
-CI/CD pipelines for microservices, based java dynamic web applications with database. Having profile: Testing/Staging/Production. Using Devops Tools (Kubernetes, Docker, DockerCompose, Jenkins, Maven, Nexus, Ansible, Selenium, Rancher, Prometheus, Grafana, Git, Github, Terraform) and AWS Tools (ECS, ECR, R53, EC2, VPC's Components) and Deploying the Spring Web App on it. This project aims to create full CI/CD Pipelines for microservice based applications. Jenkins Server deployed on Elastic Compute Cloud (EC2) Instance is used as CI/CD Server to build pipelines.
+#### We will work with a Spring pet clinic application consisting of 10 microservices. It is a Java-based web application developed by Spring company. We will run it on Development, Testing, Staging, and Production environments by using different DevOps tools (Jenkins, Kubernetes and Helm, Docker, Docker Compose, Terraform, Rancher, Nexus Repository, Maven, Ansible, Prometheus and Grafana, GitHub,  Selenium Jobs and Jacoco, Kompose conversion tool, Let’s Encrypt ACME and Cert Manager) and AWS Tools (Amazon Route 53, AWS Certificate Manager, AWS RDS MySql Database, AWS S3 Bucket, Amazon EKS(Kubernetes Service), Amazon ECS(Container Service), Amazon ECR(Container Repository), Amazon EC2, Amazon VPC's Components etc.). We will create each environment and run our application in it. While we are working in Staging and Production environments, we will create full CI/CD Jenkins pipelines for each. Jenkins Server deployed on Elastic Compute Cloud (EC2) Instance is used as CI/CD Server to build pipelines. It has profiles: Testing/Staging/Production.
 
+#### Also, finally, we will set “Domain Name”, create an “A record” in our hosted zone by using AWS Route 53 domain registrar for the microservices app, and then, bind it to our the “Kubernetes cluster of the app”. We will configure a TLS (Transport Layer Security) certificate for HTTPS connection to the domain name using Let’s Encrypt and Cert Manager. Thus, we will be able to provide a secure connection to our application on the Internet. We will do it all step by step.
+
+![Spring Petclinic Microservices screenshot](docs/outputletsencrypt.jpg)
+
+### For detailed information about how the project was done, you can read my article in Medium:
+[Working with Microservices-10: Explanation of the Production Stage and Creating Amazon EKS cluster for the “Production Environment and Pipeline” in order to deploy the Microservices App into it.](https://medium.com/@cmakkaya/working-with-microservices-10-explanation-of-the-production-stage-and-creating-amazon-eks-cluster-f202558ca4fb) 
+
+
+# Project Documentation
 [![Build Status](https://travis-ci.org/spring-petclinic/spring-petclinic-microservices.svg?branch=master)](https://travis-ci.org/spring-petclinic/spring-petclinic-microservices/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This microservices branch was initially derived from [AngularJS version](https://github.com/spring-petclinic/spring-petclinic-angular1) to demonstrate how to split sample Spring application into [microservices](http://www.martinfowler.com/articles/microservices.html). To achieve that goal we used [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix) technology stack.
